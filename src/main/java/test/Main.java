@@ -9,6 +9,7 @@ public class Main {
 
 //    static final String DB_URL = "jdbc:hsqldb:file:C:\\Program Files\\Collaborator Server\\tomcat/database";
 //    static final String TARGET_DB = "jdbc:hsqldb:file:C:\\Users\\olkan\\IdeaProjects\\collab-core\\tomcat/database";
+
     static final String DB_URL = "jdbc:hsqldb:file:C:\\Users\\olkan\\IdeaProjects\\collab-core\\tomcat/database";
     static final String TARGET_DB = "jdbc:hsqldb:file:C:\\Program Files\\Collaborator Server\\tomcat/database";
     //  Database credentials
