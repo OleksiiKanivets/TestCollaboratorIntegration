@@ -38,17 +38,19 @@ public class Main {
         for(int i = 0; i < columnNames.size() + booleans.size() + dates.size() - 1; i++){
             questions.append("?, ") ;
         }
+        //dsfgsdfg
+        //sdfgsdfg
         questions.append("?)");
         insertStmt = insertStmt.concat(questions.toString());
         try {
             // Create database connection
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
-            // Create and execute statement
+            // Create and execute statementgsdfgsdfg
             stmt = conn.createStatement();
             ResultSet rs =  stmt.executeQuery("select * from user");
             List<Map<String, Object>> users = new ArrayList();
-            // Loop through the data and print all artist names
+            // Loop through the data and print all artist namessdfgsdfgdsfgsdfg
             while(rs.next()) {
                 Map<String, Object> user = new HashMap<>();
                 for(String column: columnNames){
@@ -63,7 +65,7 @@ public class Main {
                 users.add(user);
             }
 
-            // Clean up
+            // Clean upsdfgsdfg
             rs.close();
             stmt.close();
             try(Connection conn2 = DriverManager.getConnection(TARGET_DB, USER, PASS)){
@@ -84,7 +86,7 @@ public class Main {
                         preparedStatement.addBatch();
                         }
                     }
-                    preparedStatement.executeBatch();
+                    preparedStatement.executeBatch();//sdfgsdf
                 }
 
             }
