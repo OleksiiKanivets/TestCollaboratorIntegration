@@ -1,5 +1,5 @@
 package test;
 
 public class testIntegr {
-    //2341234trewrtweertwertwerterqwerqweqrqwerqwerfghjxcvbnmgfjhgjsdASDasывафыва
+    //2341234trewrtweertwertwerterqwerqweqrqwerqwerfghjxcvbnmgfjhgjsdASDasывафывакенгкенгкенг
 }
