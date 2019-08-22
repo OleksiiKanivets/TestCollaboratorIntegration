@@ -1,6 +1,6 @@
 package test;
 
 public class testIntegr {
-    //2341234trewrtweertdfasdfaswertwerterqwerasdfasdqweqrqwerqwerfghjxcvbnrtyurumgfjhgjsdASDagdfghghjkghjkghjkdfgsывафывакенгкенгкенгвапывапк'
+    //2341234trewrtweertdfasdfasfsadfsadfwertwerterqwerasdfasdqweqrqwerqwerfghjxcvbnrtyurumgfjhgjsdASDagdfghghjkghjkghjkdfgsывафывакенгкенгкенгвапывапк'
     // ;';'werqweraefaswdfasdfеаонЯЧсЯЧсгрлдукецукецукевыапывапвыапывапывапервапрвапячсмячсмчсмячсмч
 }
