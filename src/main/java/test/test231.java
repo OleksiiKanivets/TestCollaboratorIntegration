@@ -8,4 +8,6 @@ public class test231 {
     public werqwerqwe getQwerqwerwer() {
         return qwerqwerwer;
     }
+
+    wertwertertwetr
 }

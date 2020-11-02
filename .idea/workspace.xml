@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="036720db-7bb1-4cb0-98ca-252eba4cf658" name="Default Changelist" comment="" />
+    <list default="true" id="036720db-7bb1-4cb0-98ca-252eba4cf658" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/test231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test231.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +32,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/test231.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,44 +72,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestCollaboratorIntegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCollaboratorIntegration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestCollaboratorIntegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCollaboratorIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestCollaboratorIntegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCollaboratorIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestCollaboratorIntegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCollaboratorIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestCollaboratorIntegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestCollaboratorIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -476,9 +446,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3848" y="-5" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35181236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,9 +462,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" weight="0.29144096" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49840087" visible="true" weight="0.29144096" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49733475" visible="true" weight="0.34777898" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49733475" weight="0.34777898" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -565,8 +535,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/test231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
