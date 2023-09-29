@@ -55,6 +55,9 @@ public class Main {
         }
         questions.append("?)");
         insertStmt = insertStmt.concat(questions.toString());
+
+        questions.append("?)");
+        insertStmt = insertStmt.concat(questions.toString());
     }
         questions.append("?)");
     insertStmt = insertStmt.concat(questions.toString());
