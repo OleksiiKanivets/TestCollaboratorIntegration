@@ -40,6 +40,21 @@ public class Main {
         }
         questions.append("?)");
         insertStmt = insertStmt.concat(questions.toString());
+        Connection conn = null;
+        Statement stmt = null;
+        List<String> columnNames = Arrays.asList(new String[] {"USER_PASSWORD", "USER_NAME", "USER_EMAIL", "USER_PHONE", "USER_INITIALS", "USER_GUID", "USER_DEPARTMENT",
+                "USER_FIRSTNAME", "USER_LASTNAME", "USER_LOGIN"});
+        List<String> booleans = Arrays.asList(new String[] {"USER_ADMIN", "USER_TUTORIALS", "USER_ACTIVE", "USER_NEXTPAGESCROLL", "USER_CREATECHILDGROUPS", "USER_EDITTEMPLATES",
+                "USER_EDITCUSTOMFIELDS", "USER_EDITCHECKLISTS", "USER_EDITROLES", "USER_EDITAUTOMATICLINKS"});
+        List<String> dates = Arrays.asList(new String[] { "USER_LASTLOGIN", "USER_LASTLOGOUT","USER_LASTACTIVITY"});
+        String insertStmt = "insert into user (" + String.join(", ", columnNames) + ", " +
+                String.join(", ", booleans) + ", " + String.join(", ", dates) + ") " + " VALUES (";
+        StringBuilder questions = new StringBuilder();
+        for(int i = 0; i < columnNames.size() + booleans.size() + dates.size() - 1; i++){
+            questions.append("?, ") ;
+        }
+        questions.append("?)");
+        insertStmt = insertStmt.concat(questions.toString());
         try {
             // Create database connection
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
