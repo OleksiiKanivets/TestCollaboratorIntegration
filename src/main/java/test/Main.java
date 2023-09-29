@@ -55,6 +55,9 @@ public class Main {
         }
         questions.append("?)");
         insertStmt = insertStmt.concat(questions.toString());
+    }
+        questions.append("?)");
+    insertStmt = insertStmt.concat(questions.toString());
         try {
             // Create database connection
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
